@@ -1,0 +1,17 @@
+{
+    "name": "tristan/fc-saufhampton-theme",
+    "autoload": {
+        "psr-4": {
+            "Tristan\\FcSaufhamptonTheme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TristanHeckelsmueller",
+            "email": "tristan@heckelsmueller.net"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    }
+}

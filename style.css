@@ -1,0 +1,18 @@
+/**
+* Theme Name:        FC Saufhampton SM
+* Theme URI:         https://berise.de
+* Author:            Tristan Heckelsmüller
+* Author URI:        https://heckelsmueller.net
+* Description:       Saufhampton WP Theme
+* Version:           0.1.0
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
