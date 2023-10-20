@@ -1,0 +1,31 @@
+.woocommerce-tabs {
+  display: flex;
+  gap: 1rem;
+}
+.tabs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  & li {
+    background: #fafafa;
+    padding: 1rem;
+    min-width: 255px;
+    border-bottom: 2px solid #b9b9b9;
+  }
+}
+@media (max-width: 767px) {
+  .woocommerce-tabs {
+    flex-flow: column;
+  }
+  .tabs {
+    & li {
+      background: #efefef;
+      padding: 1rem;
+      min-width: 255px;
+      border-bottom: 2px solid #b9b9b9;
+    }
+  }
+}
+tr.woocommerce-product-attributes-item th {
+  padding-right: 1rem;
+}

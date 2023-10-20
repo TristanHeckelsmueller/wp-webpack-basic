@@ -1,0 +1,29 @@
+.cart-subtotal td, .order-total td {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .wc-proceed-to-checkout {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    & a{
+      width: 100%;
+    }
+  }
+}
+.cart {
+  & .product-name > a {
+    font-weight: 600;
+  }
+}
+@media (max-width: 767px) {
+  .cart-collaterals {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+}
+.woo-paypalplus-checkout-button {
+  margin-top: 1rem;
+}

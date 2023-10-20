@@ -1,6 +1,27 @@
-* {
-  box-sizing: border-box;
-}
-body {
-  background: #333;
-}
+@import "fonts/fonts";
+@import "defaults/variables";
+@import "defaults/base";
+@import "defaults/btn";
+@import "defaults/form";
+
+
+@import "components/header/header";
+@import "components/header/mobile-menu";
+@import "components/header/hamburger";
+@import "components/footer/footer";
+@import "components/frontpage/featured";
+@import "components/frontpage/also";
+
+
+@import "woocommerce/base";
+@import "woocommerce/layout";
+@import "woocommerce/gallery";
+@import "woocommerce/purchase";
+@import "woocommerce/form";
+@import "woocommerce/trust";
+@import "woocommerce/checkout";
+@import "woocommerce/tabs";
+@import "woocommerce/product-preview";
+@import "woocommerce/archive";
+@import "woocommerce/cart";
+

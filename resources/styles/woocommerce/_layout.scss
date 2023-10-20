@@ -1,0 +1,20 @@
+.container-product .product {
+  display: grid;
+  grid-template-columns: 40% 54%;
+  grid-template-rows: auto 1fr;
+  gap: 4rem 6%;
+  grid-template-areas:
+    "Image Content"
+    "Bottom Bottom";
+}
+.woocommerce-product-gallery { grid-area: Image; }
+.summary.entry-summary { grid-area: Content; }
+.woocommerce-tabs { grid-area: Bottom; }
+
+@media (max-width: 767px) {
+  .container .product {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem 2rem;
+  }
+}

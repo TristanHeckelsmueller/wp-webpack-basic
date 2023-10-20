@@ -1,0 +1,45 @@
+.wc-gzd-place-order {
+  text-align: right;
+  #place_order {
+    width: 250px;
+  }
+}
+.woocommerce-checkout-review-order-table {
+  max-width: 100%;
+}
+#order_review .wc-gzd-checkbox-placeholder p.form-row {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin: 1rem 0;
+}
+.woocommerce-checkout #payment {
+  background: #fafafa;
+}
+@media (max-width: 767px) {
+  .wc-gzd-cart-info.wc-gzd-item-desc.item-desc {
+    display: none;
+  }
+}
+
+.wc-gzd-product-name-right {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.wc-gzd-cart-info {
+  font-size: 0.9rem;
+  max-width: 600px;
+}
+.product-total {
+  text-align: right;
+}
+#order_payment_heading {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .wc-gzd-product-name-left {
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+}

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-ts": "npx tsc",
-    "dev": "webpack"
+    "build-ts": "npx tsc --watch",
+    "dev": "concurrently \"npx tsc --watch\" \"webpack\""
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.3",

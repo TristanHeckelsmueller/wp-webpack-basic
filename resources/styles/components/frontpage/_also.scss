@@ -1,0 +1,30 @@
+.also {
+  padding: 4rem 0;
+  &__left {
+    max-width: 450px;
+  }
+  &__right {
+    max-width: 550px;
+    & span {
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .also {
+    & .container {
+      flex-flow: column;
+    }
+    &__right {
+      & span, a {
+        font-size: $regular;
+      }
+      &  h2 {
+        margin-top: 2rem;
+      }
+
+    }
+
+  }
+}

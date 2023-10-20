@@ -1,0 +1,18 @@
+.trust {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .trust {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

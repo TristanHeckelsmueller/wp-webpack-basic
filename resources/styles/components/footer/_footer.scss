@@ -1,0 +1,35 @@
+.footer {
+  box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, 0.26);
+  padding: 2rem 0;
+  & .container {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4rem;
+  }
+  & ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    & li {
+      margin-bottom: 0.75rem;
+    }
+  }
+  &__item {
+    &__title {
+      font-weight: 500;
+      font-size: $medium;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .footer {
+    padding: 0;
+    & .container {
+      flex-flow: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 1rem;
+    }
+
+  }
+}

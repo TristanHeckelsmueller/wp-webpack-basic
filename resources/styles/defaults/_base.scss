@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+}
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: $black;
+}
+a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: $black;
+}
+
+
+img, svg {
+  max-width: 100%;
+}
+p {
+  color: $black;
+  line-height: 1.6875rem; /* 150% */
+}
+
+h1  {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 400;
+}
+.snzr {
+  font-weight: 900;
+  font-style: italic;
+}
+h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  font-weight: 900;
+  font-style: italic;
+}
+h3 {
+  font-size: 1.5rem;
+}
+@media (max-width: 767px) {
+  h1  {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+
+}
+
+.relative {
+  position: relative;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  &-header {
+    z-index: 12;
+    position: relative;
+  }
+  &-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (max-width: 1250px) {
+  .container, .space {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.space {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+@media (max-width: 767px) {
+  .space {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.yith_wcwl_wishlist_footer {
+  display: none;
+}
+
+.cart-amount {
+  height: 15px;
+  width: 15px;
+  background: #c30000;
+  color: #fff;
+  line-height: 1em;
+  font-size: 8px;
+  position: absolute;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: -8px;
+  top: -5px;
+}
+.trademark {
+  font-size: 0.5em;
+  vertical-align: super;
+}
